@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Playfair+Display|Raleway|Open+Sans|Poppins|Merriweather&display=swap'); 
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: rgb(255, 254, 252);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-container{
+    /* width: 225px; */
+}
+
+.landing-page-header{
+  color: rgb(17, 17, 17);
+  font-family: 'Merriweather';
+  /* font-weight: bold; */
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  word-spacing: 99px;
+    /* padding-right: 250px; */
+  /* -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; */
+}
+
+.landing-page-real{
+  color:  rgb(17, 17, 17);
+  margin: 80px;
+}
+
+.landing-page-professional{
+  color:  rgb(17, 17, 17);
+  margin: 80px;
+}
+
+.ant-menu ant-menu-light ant-menu-root ant-menu-horizontal{
+  background: whitesmoke;
+  border-bottom: 1px solid #f0f0f0
+}
+
+.description-menu{
+  background: whitesmoke;
+}
+
+.ant-tabs-content ant-tabs-content-animated ant-tabs-top-content {
+  width: 600px;
+  padding-left: 80px;
+}
+
+.ant-tabs-nav-container::after{
+  display: flex;
+}
+
+/* .ant-tabs-nav-wrap {
+  margin-left: 326px;
+  width: 250px;
+} */
+
+.description-tab{
+  position: relative;
+  text-align: left
+}
+.ant-tabs-ink-bar ant-tabs-ink-bar-animated{
+  background-color: rgb(225, 98, 89);
+}
+
+.ant-tabs-nav .ant-tabs-tab-active {
+  color: rgb(17, 17, 17);
+}
+
+.ant-tabs .ant-tabs-top-content > .ant-tabs-tabpane, .ant-tabs .ant-tabs-bottom-content > .ant-tabs-tabpane{
+width: 0px;
+}
+
+.ant-tabs-bar{
+  position: relative;
+}
+
+.landing-page-profile{
+  height: 200px;
+  border-radius: 50%;
+  user-select: none;
+  transition: background 120ms ease-in 0s;
+  cursor: pointer; 
+  display: flex; 
+  align-items: center;
+   flex-grow: 1; 
+   flex-direction: column;
+    border-radius: 6px;
+     width: 175px;
+}
+
+.ant-col{
+  padding: 10px;
+  width: 454px;
+}
+
+.github{
+  color: rgb(17, 17, 17);
+}
+
+.idea-button:hover{
+  font-size: 16px; 
+  font-weight: 500; 
+  margin-top: 12px; 
+  margin-bottom: 8px; 
+  padding-bottom: 4px;
+  text-align: center;
+  background-image: linear-gradient(to right, black 0%, black 100%);
+  background-repeat: repeat-x; 
+  background-position: 0px 100%;
+   background-size: 100% 0px;
+   background-color: yellow;
+
+}
+
+ass:hover {
+  background-color: yellow;
+}
+
+/* .ant-tabs-tabpane ant-tabs-tabpane-active{
+  width: 0px;
+
+} */
